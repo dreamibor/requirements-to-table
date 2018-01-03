@@ -42,9 +42,9 @@ def main(args):
 
 
 if __name__ == '__main__':
-	parser = argparse.ArgumentParser(description='Parse requirements to txt')
+	parser = argparse.ArgumentParser(description='Parse requirements txt to Markdown / HTMLtable.')
 	parser.add_argument('-i', type=str, help='Input requirements.txt path')
-	parser.add_argument('-o', type=str, help='Output markdown path')
-	parser.add_argument('-s', type=str, help='Output markdown path')
+	parser.add_argument('-o', type=str, help='Output markdown / HTML path')
+	parser.add_argument('-s', type=str, help='Output style: Markdowen / HTML')
 	args = parser.parse_args()
 	main(args)
