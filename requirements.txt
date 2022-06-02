@@ -3,7 +3,7 @@ cycler==0.10.0
 decorator==4.1.2
 dlib==19.7.0
 enum34==1.1.6
-html5lib==0.9999999
+html5lib==0.99999999
 Jinja2==2.10
 Markdown==2.6.10
 MarkupSafe==1.0
