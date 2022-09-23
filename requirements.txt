@@ -14,7 +14,7 @@ olefile==0.44
 opencv-python==3.3.0.10
 Pillow==4.3.0
 pkg-resources==0.0.0
-protobuf==3.5.0.post1
+protobuf==3.18.3
 pyparsing==2.2.0
 python-dateutil==2.6.1
 pytz==2017.3
